@@ -1,0 +1,3 @@
+We sucessfully implemented the required set of instructions namely, bne, beq, blez, bgtz, j, jal and jr.
+There are three initial states followed by an execution state and then a done state. The instructions are all pipelined so, each normal instruction takes one cycle each. The stack was also implemented by making a stack pointer and initializing it to 4096 so that it grows downwards.
+The major change we made to the previous assignment was to introduce pipeline and make an additional branch delay state. 
